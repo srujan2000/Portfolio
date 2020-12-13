@@ -43,9 +43,8 @@ img{
     color: #000000;
 }
 
-
 #header{
-    padding: 50px 0;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -56,103 +55,36 @@ img{
     margin-bottom: 80px;
 }
 
-#header h1{
-    display: inline;
-}
-
-#header strong{
-    padding-top: 10px;
-    display: block;
-}
-
-#head{
+#header h1 span{
     color: #4F46E5;
 }
 
-
-#techno{
-    background-color: #A5B4FC;
+#blogs{
+    margin-top: 50px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-bottom: 70px;
 }
 
-#techno h1{
-    font-size: 2rem;
+.blog{
+    margin: 20px ;
 }
 
-#techno strong{
-    font-size: 1.1rem; 
-}
-
-#projects{
-    text-align: center;
-    margin-bottom: 50px;
-    padding: 0 5px;
-}
-
-#projects h1{
-    color: #4338CA;
-    text-align: center;
-    font-size: 2.5rem;
-    letter-spacing: 1px;
-    padding-bottom: 50px;
-}
-
-#projects img{
-    display: block;
-    max-width: 350px;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-.proj h3{
-    color:#6366F1;
-    padding-bottom: 5px
-}
-
-.proj button{
-    margin-right: 20px;
-    margin-bottom: 30px;
-    outline: none;
-}
-
-.proj p{
+.blog h2{
     color: #4F46E5;
-    font-weight: 500;
 }
 
-.primary{
-    background-color: #4F46E5;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-}
-
-.primary a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1rem;
-    letter-spacing: 1px;
-}
-
-.secondary{
+.blog button{
     background-color: #E0E7FF;
     border: 1px solid #4F46E5;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
-.secondary a{
+.blog button a{
     text-decoration: none;
     color: #6366F1;
     font-size: 1rem;
     letter-spacing: 1px;
 }
-
 
 footer{
     background-color: #4338CA;
