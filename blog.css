@@ -36,7 +36,7 @@ img{
     text-decoration: none;
     padding-bottom: 20px;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .list-items a:hover{
@@ -55,6 +55,11 @@ img{
     margin-bottom: 80px;
 }
 
+
+#header h1 {
+    font-size: 3rem;
+}
+
 #header h1 span{
     color: #4F46E5;
 }
@@ -70,6 +75,7 @@ img{
 
 .blog h2{
     color: #4F46E5;
+    font-size: 2rem;
 }
 
 .blog button{
@@ -79,10 +85,19 @@ img{
     padding: 10px 15px;
 }
 
+.blog small{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.blog p{
+    font-size: 1.4rem;
+}
+
 .blog button a{
     text-decoration: none;
     color: #6366F1;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
 }
 
@@ -103,8 +118,17 @@ footer a{
 }
 
 
-@media only screen and (max-width: 376px) {
-  .lists{
-      padding-right: 5px;
-  }
+@media only screen and (max-width: 395px) {
+    .lists{
+        padding-right: 5px;
+    }
+    .list-items a{
+        font-size: 1.3rem;
+    }
+    #header img{
+      max-width: 300px;
+    }
+    #projects img{
+        max-width: 300px;
+    }
   }
